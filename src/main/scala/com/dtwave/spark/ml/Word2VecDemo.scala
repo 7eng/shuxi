@@ -9,6 +9,8 @@ import org.apache.spark.sql.SparkSession
   *
   * 机器学习算法: Word2Vector
   *
+  * 输出Jar包路径: libs/spark_ml_demo.jar
+  *
   * @author baisong
   * @date 18/2/1
   */
@@ -22,7 +24,7 @@ object Word2VecDemo {
     /**
       * 此处不用设置AppName和Master参数, 数栖平台提交作业会自动添加.
       *
-      * AppName命名格式: 人物名_用户名_实例名
+      * AppName命名格式: 任务名_用户名_实例名
       */
     val spark = SparkSession
       .builder
