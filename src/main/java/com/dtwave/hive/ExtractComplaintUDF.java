@@ -19,7 +19,7 @@ public class ExtractComplaintUDF extends UDF {
 
 
     /**
-     * 抽取投诉内容中的位置、对象、问题。
+     * 抽取投诉内容中的位置、对象、问题(因为是Demo，此处未采用NLP算法。)。
      *
      * @param text 投诉内容
      * @return 抽取后的位置、对象、问题
