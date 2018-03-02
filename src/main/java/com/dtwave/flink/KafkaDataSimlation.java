@@ -13,9 +13,9 @@ import java.util.Properties;
  * 模拟数据生成
  *
  *数据格式：
- * {"orderId":18,"proName":"prt3","amount":1,"orderTime":1512974707597}
- * {"orderId":19,"proName":"prt4","amount":1,"orderTime":1512974708601}
- * {"orderId":20,"proName":"prt0","amount":1,"orderTime":1512974709607}
+ * {"_id":1,"orderId":18,"proName":"prt3","amount":1,"orderTime":1512974707597}
+ * {"_id":2,"orderId":19,"proName":"prt4","amount":1,"orderTime":1512974708601}
+ * {"_id":3,"orderId":20,"proName":"prt0","amount":1,"orderTime":1512974709607}
  *
  * @author hulb
  * @date 2017/12/11 下午2:43
@@ -26,8 +26,8 @@ public class KafkaDataSimlation {
     public static void main(String[] args) throws Exception {
 
         Properties props = new Properties();
-        props.put("bootstrap.servers", "mq250:9092,mq221:9092,mq164:9092");
-        //props.put("bootstrap.servers", args[0]);
+        //props.put("bootstrap.servers", "mq250:9092,mq221:9092,mq164:9092");
+        props.put("bootstrap.servers", args[0]);
         props.put("acks", "all");
         props.put("retries", 0);
         props.put("batch.size", 16384);
