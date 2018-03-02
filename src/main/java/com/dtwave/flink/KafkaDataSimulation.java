@@ -34,7 +34,7 @@ public class KafkaDataSimulation {
         }
         Integer messageCount = 10000;
         Properties props = new Properties();
-        props.put("bootstrap.servers", "mq250:9092,mq221:9092,mq164:9092");
+        props.put("bootstrap.servers", args[0]);
         props.put("acks", "all");
         props.put("retries", 0);
         props.put("batch.size", 16384);
