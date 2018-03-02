@@ -17,6 +17,8 @@ import java.util.Properties;
  * {"_id":2,"orderId":19,"proName":"prt4","amount":1,"orderTime":1512974708601}
  * {"_id":3,"orderId":20,"proName":"prt0","amount":1,"orderTime":1512974709607}
  *
+ * java -cp target/shuxi-0.0.1-jar-with-dependencies.jar com.dtwave.flink.KafkaDataSimulation mq250:9092,mq221:9092,mq164:9092
+ *
  * @author hulb
  * @date 2017/12/11 下午2:43
  */
@@ -32,7 +34,7 @@ public class KafkaDataSimulation {
         }
         Integer messageCount = 10000;
         Properties props = new Properties();
-        props.put("bootstrap.servers", args[0]);
+        props.put("bootstrap.servers", "mq250:9092,mq221:9092,mq164:9092");
         props.put("acks", "all");
         props.put("retries", 0);
         props.put("batch.size", 16384);
