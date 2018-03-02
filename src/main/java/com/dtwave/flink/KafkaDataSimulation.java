@@ -25,8 +25,8 @@ public class KafkaDataSimulation {
 
     public static void main(String[] args) throws Exception {
 
-        if (args.length < 2) {
-            System.err.println("Usage: KafkaDataSimulation <bootstrap.servers> <messageCount>\n" +
+        if (args.length < 1) {
+            System.err.println("Usage: KafkaDataSimulation <bootstrap.servers>\n" +
                     "Example : mq250:9092,mq221:9092,mq164:9092");
             System.exit(-1);
         }
