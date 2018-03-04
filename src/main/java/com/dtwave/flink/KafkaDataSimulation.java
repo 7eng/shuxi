@@ -29,7 +29,7 @@ public class KafkaDataSimulation {
 
         if (args.length < 1) {
             System.err.println("Usage: KafkaDataSimulation <bootstrap.servers>\n" +
-                    "Example : mq250:9092,mq221:9092,mq164:9092");
+                    "Example : mq1:9092,mq2:9092,mq3:9092");
             System.exit(-1);
         }
         Integer messageCount = 10000;

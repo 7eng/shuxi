@@ -17,7 +17,7 @@ object FlinkDemo {
 
     if (args.length < 1) {
       System.err.println("Usage: FlinkDemo <bootstrap.servers>\n" +
-        "Example : mq250:9092,mq221:9092,mq164:9092")
+        "Example : mq1:9092,mq2:9092,mq3:9092")
       System.exit(-1)
     }
 
