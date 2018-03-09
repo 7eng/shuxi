@@ -44,7 +44,7 @@
 
 公司：[数澜科技](https://www.dtwave.com/)
 
-电话：15129254680
+技术电话：15129254680
 
 电子邮箱：song.bs@dtwave-inc.com
 
