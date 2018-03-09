@@ -1,6 +1,6 @@
  
 
-<img src="doc/images/shuxi.png" width="500" height="20" align=center/>
+<img src="doc/images/shuxi.png" width = "500" height = "20" align=center/>
 
 ------
 
