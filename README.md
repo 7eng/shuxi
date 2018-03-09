@@ -1,6 +1,6 @@
  
 
-<img src="doc/images/shuxi.png" width = "500" height = "20" align=center/>
+<img src="doc/images/shuxi.png" align=center/>
 
 ------
 
@@ -50,5 +50,5 @@
 
 公司地址：杭州市余杭区良睦路与仓兴街交叉口梦想小镇创业大街2号楼3楼
 
-<img src="doc/images/weixin.png"  width="200" height="20" align=center />
+<img src="doc/images/weixin.png" align=center />
 
