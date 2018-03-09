@@ -21,7 +21,6 @@
         <scalatest.version>2.2.4</scalatest.version>
     </properties>
 
-
     <dependencies>
 
         <dependency>
