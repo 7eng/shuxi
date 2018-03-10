@@ -1,4 +1,4 @@
- <img src="doc/images/logo.png" style='float:right; width:400px;height:200 px'/>
+ <img src="doc/images/logo.png" style='float:right; width:600px; height:200px'/>
 
 # 数栖平台
 
