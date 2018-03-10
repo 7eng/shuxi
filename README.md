@@ -1,8 +1,7 @@
- <img src="doc/images/logo.png" style='float:right; width:600px; height:200px'/>
+<img src="doc/images/logo.png" style='float:left; width:600px; height:200px'/>
 
 # 数栖平台
-​&ensp; &ensp; &ensp; &ensp; 数栖平台提供从数据同步、数据开发到数据管理的一站式大数据全链路解决方案，支持Hadoop、Spark、Flink、Presto等业界流行的大数据计算引擎，并支持快速扩展。通过此平台可构建PB级别的数据仓库，来实现超大规模数据的资产化。采用"开箱即用"的使用方式，让用户无需再关心底层集群的搭建和运维，能极大提高数据开发和应用的效率。
-
+​&ensp;&ensp;&ensp;数栖平台提供从数据同步、数据开发到数据管理的一站式大数据全链路解决方案，支持Hadoop、Spark、Flink、Presto等业界流行的大数据计算引擎，并支持快速扩展。通过此平台可构建PB级别的数据仓库，来实现超大规模数据的资产化。采用"开箱即用"的使用方式，让用户无需再关心底层集群的搭建和运维，能极大提高数据开发和应用的效率。
 # 快速入门(Quick Start)
 
 - [下载数据](https://github.com/dtwave/shuxi/blob/master/doc/%E6%95%B0%E6%A0%96%E5%BC%80%E5%8F%91%E5%B9%B3%E5%8F%B0-%E5%B8%AE%E5%8A%A9%E6%96%87%E6%A1%A3.md#21-%E4%B8%8B%E8%BD%BD%E6%95%B0%E6%8D%AE)
