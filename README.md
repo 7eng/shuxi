@@ -1,6 +1,6 @@
  
 
-<img src="doc/images/shuxi.png" align=center/>
+
 
 ------
 
@@ -41,6 +41,8 @@
 - [用户操作手册](https://github.com/dtwave/shuxi/blob/master/doc/%E6%95%B0%E6%A0%96%E5%BC%80%E5%8F%91%E5%B9%B3%E5%8F%B0-%E5%B8%AE%E5%8A%A9%E6%96%87%E6%A1%A3.md#3-%E7%94%A8%E6%88%B7%E6%93%8D%E4%BD%9C%E6%89%8B%E5%86%8C)
 
 # 联系
+
+<img src="doc/images/shuxi.png" style='float:right'/>
 
 公司：[数澜科技](https://www.dtwave.com/)
 
