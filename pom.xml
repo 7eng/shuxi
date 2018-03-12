@@ -17,7 +17,6 @@
         <flink.version>1.3.2</flink.version>
         <junit.version>4.12</junit.version>
         <jackson.version>2.7.4</jackson.version>
-        <fastjson.version>1.2.15</fastjson.version>
         <scalatest.version>2.2.4</scalatest.version>
     </properties>
 
@@ -34,13 +33,6 @@
             <groupId>org.scalatest</groupId>
             <artifactId>scalatest_2.11</artifactId>
             <version>${scalatest.version}</version>
-            <scope>provided</scope>
-        </dependency>
-
-        <dependency>
-            <groupId>com.alibaba</groupId>
-            <artifactId>fastjson</artifactId>
-            <version>${fastjson.version}</version>
             <scope>provided</scope>
         </dependency>
 

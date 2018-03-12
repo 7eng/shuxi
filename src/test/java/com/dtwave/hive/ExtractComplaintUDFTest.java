@@ -14,6 +14,6 @@ public class ExtractComplaintUDFTest {
 
     @Test
     public void evaluate() throws Exception {
-        System.out.println(demo.evaluate("我家里卫生间的马桶漏水了"));
+        System.out.println(demo.evaluate("卫生间门把手松动,门都发不开,快点来维修"));
     }
 }

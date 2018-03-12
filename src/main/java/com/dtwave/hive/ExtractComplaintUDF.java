@@ -1,7 +1,7 @@
 package com.dtwave.hive;
 
-import com.alibaba.fastjson.JSONObject;
-
+import org.json.JSONObject;
+import org.json.JSONException;
 import org.apache.hadoop.hive.ql.exec.UDF;
 
 /**
@@ -48,7 +48,7 @@ public class ExtractComplaintUDF extends UDF {
                 return buildResult("卫生间", "水管", "渗水");
             case "卫生间门把手松动,门都发不开,快点来维修":
                 return buildResult("卫生间", "门把手", "松动");
-            case "投诉好久了,我家的主卧地板发黑,现在都没人管!":
+            case "投诉好久了我家的主卧地板发黑,现在都没人管!":
                 return buildResult("主卧", "地板", "发黑");
             case "客服人员,卧室门吸吸不住,很影响使用":
                 return buildResult("卧室", "门吸", "吸不住");
@@ -62,18 +62,21 @@ public class ExtractComplaintUDF extends UDF {
 
     /**
      * 构造输出结果
-     *
      * @param position 位置
      * @param object   对象
      * @param problem  问题
      * @return ...
      */
     private String buildResult(String position, String object, String problem) {
-        JSONObject record = new JSONObject();
-        record.put("position", position);
-        record.put("object", object);
-        record.put("problem", problem);
+        JSONObject record = null;
+        try {
+            record = new JSONObject();
+            record.put("position", position);
+            record.put("object", object);
+            record.put("problem", problem);
+        }catch (JSONException e) {
+            e.printStackTrace();
+        }
         return record.toString();
     }
-
 }
