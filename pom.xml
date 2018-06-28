@@ -82,7 +82,6 @@
                     <groupId>org.scala-lang</groupId>
                 </exclusion>
             </exclusions>
-            <scope>provided</scope>
         </dependency>
 
         <dependency>
